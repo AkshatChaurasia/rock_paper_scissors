@@ -141,13 +141,13 @@ scissorsButton.addEventListener("click", () => {
   checkWinner(playerSelection, computerSelection);
 });
 
-function logRound(playerSelection, computerSelection) {
-  console.log("Player Chose: ", playerSelection);
-  console.log("Computer Chose: ", computerSelection);
-  console.log(playerSelection, " vs ", computerSelection);
-  console.log(checkWinner(playerSelection, computerSelection));
-  console.log("----------------------------------");
-}
+// function logRound(playerSelection, computerSelection) {
+//   console.log("Player Chose: ", playerSelection);
+//   console.log("Computer Chose: ", computerSelection);
+//   console.log(playerSelection, " vs ", computerSelection);
+//   console.log(checkWinner(playerSelection, computerSelection));
+//   console.log("----------------------------------");
+// }
 
 function logWins() {
   const h2 = document.createElement("h2");
@@ -156,14 +156,14 @@ function logWins() {
   const h3 = document.createElement("h3");
   h3.innerText = console.log("Player Wins: ", playerScore);
 
-  console.log("Computer Wins: ", compScore);
-  console.log("Draws:", draws);
-  console.log("----------------------------------");
-  finalWinner();
+  // console.log("Computer Wins: ", compScore);
+  // console.log("Draws:", draws);
+  // console.log("----------------------------------");
+  // finalWinner();
 }
 
-function finalWinner() {
-  if (playerScore > compScore) console.log("Player Won the match");
-  else if (playerScore == compScore) console.log("It's a Draw");
-  else console.log("Player lost the match");
-}
+// function finalWinner() {
+//   if (playerScore > compScore) console.log("Player Won the match");
+//   else if (playerScore == compScore) console.log("It's a Draw");
+//   else console.log("Player lost the match");
+// }
