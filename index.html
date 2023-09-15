@@ -6,11 +6,18 @@
     <title>Rock Paper Scissors Shoot!</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <script src="javascript.js"></script>
+  <script async src="javascript.js"></script>
   <body>
-    <div class="flex-container">
-      <h1>Rock Paper Scissors</h1>
-      <button onclick="game()">Start Game</button>
+    <div class="running-score">
+      <span class="player-score"></span>
+      <span class="computer-score"></span>
     </div>
+    <div class="container">
+      <h1>Rock Paper Scissors</h1>
+      <button class="rock">Rock</button>
+      <button class="paper">Paper</button>
+      <button class="scissors">Scissors</button>
+    </div>
+    <div class="outcome"></div>
   </body>
 </html>
